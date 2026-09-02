@@ -3623,7 +3623,7 @@ Read more: https://nextjs.org/docs/messages/next-image-unconfigured-localpattern
                         children: [
                           "© ",
                           new Date().getFullYear(),
-                          " CRAV — All rights reserved",
+                          " JSB — All rights reserved",
                         ],
                       }),
                     }),
@@ -3685,7 +3685,7 @@ Read more: https://nextjs.org/docs/messages/next-image-unconfigured-localpattern
                       duration: 0.75,
                       ease: "back.out(2.6)",
                       scrollStart: "top 92%",
-                      children: "CRAV",
+                      children: "JSB",
                     }),
                     (0, t.jsx)("div", {
                       className: "relative hidden max-md:block z-30 mt-[10vw]",
@@ -3717,7 +3717,7 @@ Read more: https://nextjs.org/docs/messages/next-image-unconfigured-localpattern
                               children: [
                                 "© ",
                                 new Date().getFullYear(),
-                                " CRAV — All rights reserved",
+                                " JSB — All rights reserved",
                               ],
                             }),
                           }),

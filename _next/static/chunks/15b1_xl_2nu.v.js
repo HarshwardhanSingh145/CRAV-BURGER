@@ -587,7 +587,7 @@
           bottom: "27%",
           zIndex: 15,
           rotate: 0,
-          label: "PREPARING TO SERVE THE CRAV MASTERPIECE!",
+          label: "PREPARING TO SERVE THE JSB MASTERPIECE!",
         },
       ],
       l = Array.from({ length: 14 }, (e, t) => ({
@@ -738,7 +738,7 @@
                   duration: 0.5,
                   ease: "bounce.out",
                 }),
-              t.call(() => p("READY TO CRAV!"), null, c + 0.3);
+              t.call(() => p("READY TO JSB!"), null, c + 0.3);
             let f = c + 1.2;
             t.to(
               [v.current, ".loader-bar"],
@@ -1826,7 +1826,7 @@
           i = (0, t.useMemo)(
             () =>
               "/" === e
-                ? "CRAV"
+                ? "JSB"
                 : e
                     .split("/")
                     .filter(Boolean)
@@ -1835,7 +1835,7 @@
                         e.charAt(0).toUpperCase() +
                         e.slice(1).replace(/-/g, " ")
                     )
-                    .join(" | ") || "CRAV",
+                    .join(" | ") || "JSB",
             [e]
           );
         return (
@@ -1883,7 +1883,7 @@
             }),
               console.clear(),
               console.log(
-                "%c CRAV BY %c : %c VASAV · PRITAM · GAURAV ",
+                "%c JSB BY %c : %c VASAV · PRITAM · GAURAV ",
                 "color: #f91814; font-weight: 900; letter-spacing: 1px;",
                 "color: #ccc;",
                 "color: #ccc; font-weight: 500; letter-spacing: 0.5px;"

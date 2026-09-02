@@ -1980,7 +1980,7 @@
                         },
                         className:
                           "font-modak hover:scale-105 transition-all duration-300 text-red text-stroke-small text-[4vw] max-md:text-[10vw] leading-none",
-                        children: "CRAV",
+                        children: "JSB",
                       }),
                       (0, e.jsxs)("div", {
                         className:

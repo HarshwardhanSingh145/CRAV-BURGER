@@ -1228,7 +1228,7 @@
                   className: "w-full h-full opacity-0",
                   children: (0, t.jsx)(r.default, {
                     src: "/img-webp/burgerH.webp",
-                    alt: "CRAV Artisan Smashed Burger with fresh ingredients",
+                    alt: "JSB Artisan Smashed Burger with fresh ingredients",
                     width: 1e3,
                     height: 1e3,
                     className: "h-full w-full object-contain",
@@ -1241,7 +1241,7 @@
                 className:
                   "text-center text-[15vw] max-md:text-[20vw] font-modak uppercase mt-[15vw] relative z-20 max-md:z-20 text-stroke-180 text-[#F4A804] translate-y-[-9vw] max-md:mt-[6vw] max-md:absolute max-md:top-[133vw] max-md:-translate-y-1/2",
                 delay: 0.8,
-                children: "CRAV",
+                children: "JSB",
               }),
               (0, t.jsxs)("div", {
                 className:
@@ -1448,7 +1448,7 @@
         {
           src: "/img-webp/about-3.webp",
           rotate: 8,
-          alt: "CRAV restaurant atmosphere",
+          alt: "JSB restaurant atmosphere",
         },
       ],
       m = ["md:rotate-[5deg]", "md:rotate-[-5deg]", "md:rotate-[8deg]"],
@@ -1580,7 +1580,7 @@
                   children: (0, t.jsx)(c.default, {
                     delay: 0.25,
                     children:
-                      "CRAV is back and bolder than ever. Honoring our rich roots, we bring you the ultimate smashed experience fully loaded, hot, and crafted fresh.",
+                      "JSB is back and bolder than ever. Honoring our rich roots, we bring you the ultimate smashed experience fully loaded, hot, and crafted fresh.",
                   }),
                 }),
               ],
@@ -1905,7 +1905,7 @@
     let d = [
       {
         src: "/img-webp/berlin.webp",
-        alt: "CRAV Burger takeaway packaging in Berlin",
+        alt: "JSB Burger takeaway packaging in Berlin",
         country: "BERLIN",
         containerClass:
           "absolute right-[5vw] space-y-[1.5vw] z-200 top-[50vw] items-end flex flex-col",
@@ -1914,7 +1914,7 @@
       },
       {
         src: "/img-webp/london.webp",
-        alt: "CRAV Burger takeaway packaging in London",
+        alt: "JSB Burger takeaway packaging in London",
         country: "LONDON",
         containerClass:
           "absolute left-[35vw] space-y-[1.5vw] z-200 top-[64vw] items-start flex flex-col",
@@ -1923,7 +1923,7 @@
       },
       {
         src: "/img-webp/newyork.webp",
-        alt: "CRAV Burger takeaway packaging in New York",
+        alt: "JSB Burger takeaway packaging in New York",
         country: "NEW YORK",
         containerClass:
           "absolute right-[20vw] space-y-[1.5vw] z-200 top-[80vw] items-end flex flex-col",
@@ -1932,7 +1932,7 @@
       },
       {
         src: "/img-webp/sydney.webp",
-        alt: "CRAV Burger takeaway packaging in Sydney",
+        alt: "JSB Burger takeaway packaging in Sydney",
         country: "SYDNEY",
         containerClass:
           "absolute left-[15vw] space-y-[1.5vw] z-200 top-[105vw] items-start flex flex-col",
@@ -1941,7 +1941,7 @@
       },
       {
         src: "/img-webp/tokyo.webp",
-        alt: "CRAV Burger takeaway packaging in Tokyo",
+        alt: "JSB Burger takeaway packaging in Tokyo",
         country: "TOKYO",
         containerClass:
           "absolute right-[14vw] space-y-[1.5vw] z-200 top-[130vw] items-end flex flex-col",

@@ -421,7 +421,7 @@
                     maxLength: 80,
                     value: e.message,
                     onChange: w,
-                    placeholder: "TELL US YOUR CRAVING...",
+                    placeholder: "TELL US YOUR JSBING...",
                     className: `w-full bg-transparent border-b outline-none py-[1vw] max-md:py-[3vw] font-mouse-memoirs text-[1.4vw] max-md:text-[5vw] text-white transition-all duration-300 placeholder:text-white/30 uppercase tracking-widest resize-none min-h-[4vw] max-md:min-h-[15vw] ${
                       r.message
                         ? "border-mustard"
@@ -447,7 +447,7 @@
                   children: (0, t.jsxs)(n.default, {
                     children: [
                       " ",
-                      "sending" === m ? "SENDING..." : "SEND CRAVING",
+                      "sending" === m ? "SENDING..." : "SEND JSBING",
                     ],
                   }),
                 }),
@@ -501,7 +501,7 @@
                         split: "words",
                         scrollStart: "top 88%",
                         delay: 0.15,
-                        children: "GOT A CRAVING?\nLET'S TALK",
+                        children: "GOT A JSBING?\nLET'S TALK",
                       }),
                     ],
                   }),
