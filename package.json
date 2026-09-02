@@ -2,9 +2,8 @@
   "name": "jsb-burgers",
   "version": "1.0.0",
   "description": "JSB Artisan Smashed Burgers",
-  "main": "index.html",
   "scripts": {
-    "build": "echo 'Static build ready'",
+    "build": "mkdir -p public && cp -r index.html manifest.webmanifest _next img img-webp 4a2af2c9fb33a07b public/ 2>/dev/null || true",
     "start": "node server.js"
   }
 }
