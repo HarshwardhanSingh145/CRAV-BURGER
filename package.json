@@ -1,0 +1,10 @@
+{
+  "name": "jsb-burgers",
+  "version": "1.0.0",
+  "description": "JSB Artisan Smashed Burgers",
+  "main": "index.html",
+  "scripts": {
+    "build": "echo 'Static build ready'",
+    "start": "node server.js"
+  }
+}
