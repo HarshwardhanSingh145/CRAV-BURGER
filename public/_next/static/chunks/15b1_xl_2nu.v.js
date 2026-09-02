@@ -613,12 +613,12 @@
           x = (0, r.useRef)(null),
           { setLoaderFinished: b } = (0, o.useAnimation)();
         return ((0, r.useLayoutEffect)(() => {
-          if (!e) return;
-          e.stop();
+          try { e && e.stop && e.stop(); } catch(err){}
           let t = n.default.context(() => {
             let t = n.default.timeline({
                 onComplete: () => {
-                  e.start(), u(!1), b(!0);
+                  try { e && e.start && e.start(); } catch(err){}
+                  u(!1), b(!0);
                 },
               }),
               r = { yLeft: 101, yRight: 101, yCenter: 101 },
@@ -748,7 +748,7 @@
                 duration: 0.35,
                 ease: "power2.in",
                 onComplete: () => {
-                  e.scrollTo("top");
+                  try { e && e.scrollTo ? e.scrollTo("top") : window.scrollTo(0, 0); } catch(err){ window.scrollTo(0, 0); }
                 },
               },
               f - 0.4
